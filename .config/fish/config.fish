@@ -26,7 +26,7 @@ switch $USER
     case '*' 
 
     if not set -q __fish_prompt_cwd 
-        set -g __fish_prompt_cwd (set_color $fish_color_cwd) 
+        set -g __fish_prompt_cwd (set_color -o $fish_color_cwd) 
     end
  
     if not set -q __fish_prompt_bold
