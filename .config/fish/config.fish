@@ -30,7 +30,7 @@ switch $USER
     end
  
     if not set -q __fish_prompt_bold
-        set -g __fish_prompt_bold (set_color -o $fish_color_cwd) 
+        set -g __fish_prompt_bold (set_color -o green) 
     end
 
     echo -n -s "$__fish_prompt_bold" "$USER" @ "$__fish_prompt_hostname" "$__fish_prompt_normal" ' ' "$__fish_prompt_cwd" (prompt_pwd) "$__fish_prompt_normal" '> '
