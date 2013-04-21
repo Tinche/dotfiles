@@ -9,8 +9,11 @@
   resize_left = <Shift><Control>h
   split_horiz = <Shift><Control>Down
   prev_tab = <Shift><Control>Tab
+  go_down = None
   split_vert = <Shift><Control>Right
+  go_right = None
   new_tab = <Control>t
+  go_left = None
   copy = <Control>c
   resize_down = <Shift><Control>j
   next_tab = <Control>Tab
